@@ -1,0 +1,32 @@
+style.css
+:root{
+    --color1: #DCFFB7;
+    --color2: #94e22d;
+    --color3: #11090d;
+    --color4: #152247;
+    --color5: #050402;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--color1);
+    text-align: center;
+}
+
+h2{
+    font-size: xx-large;
+    color: var(--color3s);
+}
+
+#gameBoard{
+    border: 3px solid var(--color4);
+    margin: 10px 0px;
+}
+
+#scoreTitle, #score{
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color4);
+}
